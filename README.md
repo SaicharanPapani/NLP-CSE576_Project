@@ -4,7 +4,7 @@
 1. **Pretrain-text source generation** : Generate a lot of sentences using the following template.  
 ``the sum of <number1> and <number2> is <ans>``
 eg : the sum of 123 and 45 is 168
-	- [Pretrain-text source generation](/Pretrain-text-source-generation/readme.md)
+	- [Pretrain-text source generation](/Pretrain-text-source-generation/)
 2. **Pretrain data mask creation **: Write multiple functions to introduce masks in the previous
 samples generate (randomly select digit / digits to mask)
 eg :
