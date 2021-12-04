@@ -17,3 +17,17 @@ the sum of 123 and 45 is 1<mask>8 [answer mask]
 ``eg : input : “the sum of 123 and 45 is" output : 168``
 5. Test on same number range data (number of digit of each operand (test) <= number of digit of each operand (train)).
 6. Test on OOD data (number of digit of each operand (test) > number of digit of each operand (train)).
+
+	
+## Results:
+
+| Task | T5 | BATCH SIZE | EPOCHS | LEARNING RATE | DECAY RATE | TRAIN SAMPLE | TRAINING LOSS | VAL SAMPLE | VAL ACCURACY | TEST SAMPLE | TEST ACCURACY | OOD Sample size | OOD TEST ACC | Time For Training | REMARKS	|	
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | 
+|  |  |	 | 	|  |  |  |  |  |  |  |  |  |  |  |  |  
+|  |  |	 | 	|  |  |  |  |  |  |  |  |  |  |  |  |  
+|  |  |	 | 	|  |  |  |  |  |  |  |  |  |  |  |  |  
+|  |  |	 | 	|  |  |  |  |  |  |  |  |  |  |  |  |  
+|  |  |	 | 	|  |  |  |  |  |  |  |  |  |  |  |  |  
+|  |  |	 | 	|  |  |  |  |  |  |  |  |  |  |  |  |  
+|  |  |	 | 	|  |  |  |  |  |  |  |  |  |  |  |  |  
+
