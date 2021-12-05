@@ -138,6 +138,8 @@ The results in the above table have been color-coded to represent both 10-based 
 
 
 Model-2 also showed similar behaviour in terms of learning.
+![image](https://user-images.githubusercontent.com/90635470/144738605-163e80b8-33ea-4cc9-9475-ae77ee9406aa.png)
+
 
 2. So, we introduced 10% OOD data while fine-tuning (**Model-2**), which consisted of 5 digit operands. This significantly boosted the performance of the model on 5 digit numbers by giving an accuracy of ~95%. This fine-tuned model was again evaluated on 6 digit numbers, which showed some learning and gave an accuracy of ~2.5%.
 
