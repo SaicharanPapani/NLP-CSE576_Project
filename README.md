@@ -126,7 +126,7 @@ Now, we will discuss the results corresponding to the additional fine-tuning str
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |Fine-Tuning with 10 based notation <br>**(Model-1)**|25|7280|0.000012|2600|99.58|3120|99.81|
 |<p>Fine-Tuning model with additional 10% OOD data (10 based notation)</p><p>**(Model-2)**</p>|25|7280|0.000015|2600|99.27|3120|99.28|
-|Fine-tuning with 10e based notation<br>**(Model-3)**|7|8344|0.002642|2980|97.63|3576|99.84|
+|Fine-tuning with 10e based notation<br>**(Model-3)**|10|8344|0.002642|2980|97.63|3576|99.84|
 
 The results in the above table have been color-coded to represent both 10-based notation (**Model-1** and **Model-2**) as well as 10e based notation (**Model-3** and **Model-4**).
 
@@ -144,6 +144,8 @@ Model-2 also showed similar behaviour in terms of learning.
 2. So, we introduced 10% OOD data while fine-tuning (**Model-2**), which consisted of 5 digit operands. This significantly boosted the performance of the model on 5 digit numbers by giving an accuracy of ~95%. This fine-tuned model was again evaluated on 6 digit numbers, which showed some learning and gave an accuracy of ~2.5%.
 
 3. We also tried 10e based notation with the same dataset that was used in 10-based notation. Though the test accuracy was good, model performed poorly on OOD data (both 4-digits and 5-digits).
+
+![image](https://user-images.githubusercontent.com/90635470/144739021-0e73e576-f1b9-48c4-a216-9c8518a6b0e4.png)
 
 **Key Takeaways:**
 
